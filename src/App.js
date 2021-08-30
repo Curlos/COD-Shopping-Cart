@@ -1,9 +1,10 @@
 import React, { useState, useEffect} from 'react'
+import Killstreaks from './components/Killstreaks'
 
 const App = () => {
   return (
     <div className="App">
-      <img className="killstreakImage" src="/assets/Killstreaks/advanced_uav.jpg"></img>
+      <Killstreaks />
     </div>
   );
 }
