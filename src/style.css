@@ -1,14 +1,27 @@
-.killstreaksContainer {
+/* @font-face {
+  font-family: Impact;
+  src: url('/assets/Impact-Font/impact.ttf') format('ttf');
+} */
+
+body {
+  font-family: Arial;
+}
+
+.killstreaksContainer, .weaponsContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
+  
 
-.killstreaks {
-  text-align: center;
-}
-
-.killstreakImage {
+.killstreakImage, .weaponImage {
   width: 400px;
-  margin: 20px;
+  margin-top: 10px;
+}
+
+.weapon {
+  margin: 10px;
+}
+
+.weaponName {
+  font-weight: bold;
 }
