@@ -1,5 +1,6 @@
 import Weapon from './Weapon'
 import getWeapons from '../utils/getWeapons'
+import { nanoid } from 'nanoid'
 
 const Weapons = ({ productType }) => {
 
@@ -11,7 +12,13 @@ const Weapons = ({ productType }) => {
 
   return (
     <div className="productsContainer">
-        {Object.keys(weapons[productType]).map((index) => <Weapon key={index} id={index} weapon={weapons[productType][index]}/>)}
+        {Object.keys(weapons[productType]).map((index) => {
+          const uniqueID = nanoid()
+
+          return (
+            <Weapon key={uniqueID} id={uniqueID} weapon={weapons[productType][index]}/>
+          )
+        })}
     </div>
   )
 }

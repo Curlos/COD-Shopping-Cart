@@ -1,5 +1,6 @@
 import getKillstreaks from '../utils/getKillstreaks'
 import Killstreak from './Killstreak'
+import { nanoid } from 'nanoid'
 
 const Killstreaks = ({ productType }) => {
   if (productType !== 'Killstreaks') {
@@ -17,9 +18,10 @@ const Killstreaks = ({ productType }) => {
         const image = killstreak.image
         const description = killstreak.description
         const price = killstreak.price
+        const uniqueID = nanoid()
         
         return (
-          <Killstreak name={name} key={i} image={image} description={description} price={price}/>
+          <Killstreak name={name} key={uniqueID} id={uniqueID} image={image} description={description} price={price}/>
         )
       })}
     </div>

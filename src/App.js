@@ -1,12 +1,15 @@
 import React, { useState, useEffect} from 'react'
+import Home from './components/Home'
+import Contact from './components/Contact'
 import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
-import Killstreaks from './components/Killstreaks'
-import Weapons from './components/Weapons'
+import Products from './components/Products'
+import ProductDetail from './components/ProductDetail'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 const App = () => {
 
-  const [productType, setProductType] = useState('SMGs')
+  const [productType, setProductType] = useState('Killstreaks')
+  const [currentProducts, setCurrentProducts] = useState([])
 
   const handleProductTypeClick = (e) => {
     const newProductType = e.target.getAttribute('value')
@@ -14,12 +17,16 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <Navbar />
-      <Sidebar handleProductTypeClick={handleProductTypeClick}/>
-      <Killstreaks productType={productType} />
-      <Weapons productType={productType}/>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route path="/" exact render={() => <Home />} />
+          <Route path="/shop" exact render={() => <Products productType={productType} handleProductTypeClick={handleProductTypeClick}/>} />
+          <Route path="/shop/:id" exact remder={() => <ProductDetail />} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
