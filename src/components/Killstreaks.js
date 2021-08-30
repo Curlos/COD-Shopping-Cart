@@ -1,7 +1,11 @@
 import getKillstreaks from '../utils/getKillstreaks'
 import Killstreak from './Killstreak'
 
-const Killstreaks = () => {
+const Killstreaks = ({ productType }) => {
+  if (productType !== 'Killstreaks') {
+    return null
+  }
+
   const killstreaks = getKillstreaks()
 
   console.log(Object.keys(killstreaks))
