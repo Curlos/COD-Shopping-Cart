@@ -11,19 +11,17 @@ const Killstreaks = ({ productType }) => {
   console.log(Object.keys(killstreaks))
 
   return (
-    <div className="killstreaksContainer">
-      <div className="killstreaks">
-        {Object.keys(killstreaks).map((name) => {
-          const killstreak = killstreaks[name]
-          const image = killstreak.image
-          const description = killstreak.description
-          const price = killstreak.price
-          
-          return (
-            <Killstreak name={name} image={image} description={description} price={price}/>
-          )
-        })}
-      </div>
+    <div className="productsContainer">
+      {Object.keys(killstreaks).map((name, i) => {
+        const killstreak = killstreaks[name]
+        const image = killstreak.image
+        const description = killstreak.description
+        const price = killstreak.price
+        
+        return (
+          <Killstreak name={name} key={i} image={image} description={description} price={price}/>
+        )
+      })}
     </div>
   )
 }

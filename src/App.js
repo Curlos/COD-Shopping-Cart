@@ -6,15 +6,17 @@ import Weapons from './components/Weapons'
 
 const App = () => {
 
-  const [productType, setProductType] = useState('Killstreaks')
+  const [productType, setProductType] = useState('SMGs')
 
-  const handleClick = () => {
-
+  const handleProductTypeClick = (e) => {
+    const newProductType = e.target.getAttribute('value')
+    setProductType(newProductType)
   }
+
   return (
     <div className="App">
       <Navbar />
-      <Sidebar />
+      <Sidebar handleProductTypeClick={handleProductTypeClick}/>
       <Killstreaks productType={productType} />
       <Weapons productType={productType}/>
     </div>

@@ -1,7 +1,7 @@
 import Weapon from './Weapon'
 import getWeapons from '../utils/getWeapons'
 
-const AssaultRifles = ({ productType }) => {
+const Weapons = ({ productType }) => {
 
   if (productType === 'Killstreaks') {
     return null
@@ -10,10 +10,10 @@ const AssaultRifles = ({ productType }) => {
   const weapons = getWeapons()
 
   return (
-    <div className="weaponsContainer">
+    <div className="productsContainer">
         {Object.keys(weapons[productType]).map((index) => <Weapon key={index} id={index} weapon={weapons[productType][index]}/>)}
     </div>
   )
 }
 
-export default AssaultRifles;
+export default Weapons;
