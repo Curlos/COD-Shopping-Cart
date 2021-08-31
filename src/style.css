@@ -16,7 +16,7 @@ body {
 }
   
 
-.productImage, .weaponImage {
+.productThumbImage {
   width: 400px;
   margin-top: 10px;
 }
@@ -30,6 +30,10 @@ body {
   cursor: pointer;
 }
 
+.productThumbName, .productThumbPrice {
+  margin-left: 10px;
+}
+
 .productName {
   font-weight: bold;
 }
@@ -39,10 +43,20 @@ body {
 }
 
 .productDetailContainer {
+  display: flex;
   color: #7195A4;
   margin: 20px;
 }
 
 .productDetailContainer img {
   width: 1000px;
+}
+
+.productDetailRight {
+  margin: 10px;
+}
+
+.productDetailName {
+  font-size: 25px;
+  font-weight: bold;
 }

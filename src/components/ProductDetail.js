@@ -7,10 +7,27 @@ const ProductDetail = () => {
   const { id } = useParams()
   const product = searchForProduct(id)
 
+  console.log(product)
+
   return (
     <div class="productDetailContainer">
-      <img src={product['image']} alt={product['name']}/>
+      <span className="productDetailLeft">
+        <img src={product['image']} alt={product['name']}/>
+      </span>
       
+      <span className="productDetailRight">
+        <div className="productDetailName">
+          {product['name']}
+        </div>
+        <div className="productDetailDescription">
+          {product['description']}
+        </div>
+        <div>
+          <button className="addToCart">
+            Add to cart
+          </button>
+        </div>
+      </span>
     </div>
   )
 }
