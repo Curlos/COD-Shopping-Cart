@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react'
-
 import getKillstreaks from '../utils/getKillstreaks'
 import Killstreak from './Killstreak'
 import { Link } from 'react-router-dom'

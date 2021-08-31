@@ -1,12 +1,9 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState } from 'react'
 import Home from './components/Home'
-import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Products from './components/Products'
 import ProductDetail from './components/ProductDetail'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import getKillstreaks from './utils/getKillstreaks'
-import getWeapons from './utils/getWeapons'
 
 const App = () => {
 

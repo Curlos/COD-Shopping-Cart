@@ -1,18 +1,12 @@
 import getKillstreaks from "../utils/getKillstreaks"
 import getWeapons from "../utils/getWeapons";
-import Sidebar from './Sidebar'
-import { useHistory, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 
 const ProductDetail = () => {
   const { id } = useParams()
-
-  console.log(id)
-
   const product = searchForProduct(id)
 
-  console.log(product)
-  // <img src={product['image']} alt={product['name']}/>
   return (
     <div class="productDetailContainer">
       <img src={product['image']} alt={product['name']}/>
@@ -34,10 +28,7 @@ const searchForProduct = (idToFind) => {
   }
   
   const weapons = getWeapons()
-
   const weaponClasses = Object.keys(getWeapons())
-
-  console.log(weaponClasses)
 
   for (let weaponClass of weaponClasses) {
     const weapon = weapons[weaponClass].find((weapon) => {
