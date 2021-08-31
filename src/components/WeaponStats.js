@@ -1,7 +1,7 @@
 const WeaponStats = ({ weapon }) => {
   return (
     <div className="weaponStats">
-      <div>Statistics</div>
+      <div className="statisticsTitle">Statistics</div>
       <div className="weaponStatCategory">
         <div className="w3-light-grey">
           <div className="w3-grey" style={{height: "20px", width: `${weapon['accuracy']}%`}}><span className="stat-bar">Accuracy: {weapon['accuracy']}</span></div>

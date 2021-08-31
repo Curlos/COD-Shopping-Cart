@@ -20,6 +20,7 @@ const ProductDetail = () => {
         <div className="productDetailName">
           {product['name']}
         </div>
+        <div className="productPrice">${Number(product['price']).toLocaleString() }</div>
         <div className="productDetailDescription">
           {product['description']}
         </div>

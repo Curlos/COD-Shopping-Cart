@@ -27,7 +27,7 @@ body {
   margin-bottom: 10px;
 }
 
-.shopNowButton {
+button {
   border: none;
   border: 1px solid #ffffff;
   border-radius: 5px;
@@ -63,8 +63,12 @@ button:hover {
   cursor: pointer;
 }
 
-.productThumbName, .productThumbPrice {
+.killstreakThumbInfo {
   margin-left: 10px;
+}
+
+.productThumbPrice {
+  color: #86bb63;
 }
 
 .productName {
@@ -77,7 +81,7 @@ button:hover {
 
 .productDetailContainer {
   display: flex;
-  color: #7195A4;
+  color: #4c5c63;
   margin: 20px;
 }
 
@@ -99,8 +103,18 @@ button:hover {
   flex-direction: column;
 }
 
+.addToCart {
+  margin-top: 10px;
+}
+
 .weaponStatCategory {
   margin-bottom: 10px;
+}
+
+.statisticsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .stat-bar {
