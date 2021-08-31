@@ -16,9 +16,6 @@ const Navbar = () => {
         <Link to="/shop">
           <li>Shop</li>
         </Link>
-        <Link to="/contact">
-          <li>Contact</li>
-        </Link>
         <Link to="/shopping-cart">
           <li>Shopping Cart</li>
         </Link>

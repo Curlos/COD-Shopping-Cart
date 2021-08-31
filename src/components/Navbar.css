@@ -20,7 +20,7 @@ li {
 
 /* Change the link color to #111 (black) on hover */
 li:hover {
-  background-color: #111;
+  text-decoration: underline;
 }
 
 .navbarRight {

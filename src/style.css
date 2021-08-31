@@ -9,6 +9,39 @@ body {
   background-color: #110F0B;
 }
 
+.home {
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%), url("assets/Killstreaks/juggernaut.jpg");
+  display: flex;
+  align-items: center;
+  height: 94vh;
+  color: #FFFFFF;
+}
+
+.homeIntro {
+  margin: 10px;
+  margin-bottom: 20%;
+}
+
+.homeProductName {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.shopNowButton {
+  border: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #7195A4;
+  background-color: #202124;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .productsContainer {
   display: flex;
   flex-wrap: wrap;
