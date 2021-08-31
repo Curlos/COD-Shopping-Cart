@@ -1,6 +1,7 @@
 import getKillstreaks from "../utils/getKillstreaks"
 import getWeapons from "../utils/getWeapons";
 import { useParams } from 'react-router-dom'
+import WeaponStats from "./WeaponStats";
 
 
 const ProductDetail = () => {
@@ -12,7 +13,7 @@ const ProductDetail = () => {
   return (
     <div class="productDetailContainer">
       <span className="productDetailLeft">
-        <img src={product['image']} alt={product['name']}/>
+        {Object.keys(product).includes('accuracy') ? <img src={product['alt-image']} alt={product['name']}/> : <img src={product['image']} alt={product['name']}/>}
       </span>
       
       <span className="productDetailRight">
@@ -22,6 +23,7 @@ const ProductDetail = () => {
         <div className="productDetailDescription">
           {product['description']}
         </div>
+        {Object.keys(product).includes('accuracy') ? <WeaponStats weapon={product}/> : null}
         <div>
           <button className="addToCart">
             Add to cart

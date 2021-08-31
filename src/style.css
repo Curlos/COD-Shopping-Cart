@@ -19,7 +19,7 @@ body {
 
 .homeIntro {
   margin: 10px;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .homeProductName {
@@ -92,4 +92,17 @@ button:hover {
 .productDetailName {
   font-size: 25px;
   font-weight: bold;
+}
+
+.weaponStatCategory {
+  display: flex;
+  flex-direction: column;
+}
+
+.weaponStatCategory {
+  margin-bottom: 10px;
+}
+
+.stat-bar {
+  margin-left: 5px;
 }
