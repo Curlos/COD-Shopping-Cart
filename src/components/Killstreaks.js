@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import getKillstreaks from '../utils/getKillstreaks'
 import Killstreak from './Killstreak'
-import { nanoid } from 'nanoid'
+import { Link } from 'react-router-dom'
 
 const Killstreaks = ({ productType }) => {
   if (productType !== 'Killstreaks') {
@@ -15,15 +15,15 @@ const Killstreaks = ({ productType }) => {
     <div className="productsContainer">
       {Object.keys(killstreaks).map((name, i) => {
         const killstreak = killstreaks[name]
+        const shortened_id = String(killstreak.id).substring(2, 12)
         const image = killstreak.image
         const description = killstreak.description
         const price = killstreak.price
-        const uniqueID = nanoid()
         
         return (
-          <a href={`/shop/${uniqueID}`}>
-            <Killstreak name={name} key={uniqueID} id={uniqueID} image={image} description={description} price={price}/>
-          </a>
+          <Link to={`/shop/${shortened_id}`}>
+              <Killstreak name={name} key={shortened_id} id={shortened_id} image={image} description={description} price={price}/>
+            </Link>
         )
       })}
     </div>

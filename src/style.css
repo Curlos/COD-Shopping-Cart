@@ -37,3 +37,12 @@ body {
 .productPrice {
   color: #86bb63;
 }
+
+.productDetailContainer {
+  color: #7195A4;
+  margin: 20px;
+}
+
+.productDetailContainer img {
+  width: 900px;
+}

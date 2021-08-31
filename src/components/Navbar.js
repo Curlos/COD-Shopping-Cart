@@ -1,18 +1,27 @@
 import './Navbar.css';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
   return (
-    <ul>
-      <li><a href="default.asp">Call of Duty: Modern Warfare</a></li>
+    <ul class="navbar">
+      <Link to="/">
+        <li>Call of Duty: Modern Warfare</li>
+      </Link>
       
       <span className="navbarRight">
-        <li><a href="home">Home</a></li>
-        <li><a href="shop">Shop</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="shopping-cart">
-          Shopping Cart
-        </a></li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/shop">
+          <li>Shop</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
+        <Link to="/shopping-cart">
+          <li>Shopping Cart</li>
+        </Link>
       </span>
     </ul>
   )

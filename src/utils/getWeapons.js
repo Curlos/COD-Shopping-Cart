@@ -3,8 +3,10 @@ const getWeapons = () => {
     const weapons = {
         "Assault Rifles": [
             {
+                "id": 68852568010341246272685635287897839336,
                 "name": "Kilo 141",
                 "description": "Fully automatic assault rifle with an ergonomic design that improves handling, and a steady fire rate helps stay on target.",
+                "price": 8900,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/kilo-141.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 70,
@@ -13,12 +15,13 @@ const getWeapons = () => {
                 "fire_rate": 73,
                 "mobility": 61,
                 "control": 72,
-                "overall": 68.83,
-                "price": 8900
+                "overall": 68.83
             },
             {
+                "id": 71535665386559939484242918260804130536,
                 "name": "FAL",
                 "description": "Semi-automatic battle rifle with a high rate of fire for faster follow up shots.",
+                "price": 6700,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/fal.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 74,
@@ -27,12 +30,13 @@ const getWeapons = () => {
                 "fire_rate": 59,
                 "mobility": 60,
                 "control": 68,
-                "overall": 68.33,
-                "price": 6700
+                "overall": 68.33
             },
             {
+                "id": 78426434201471687130732659540460803816,
                 "name": "M4A1",
                 "description": "Fully automatic, all-purpose battle rifle. Control your shots, and this weapon can be very effective at range.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/m4a1.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 71,
@@ -41,12 +45,13 @@ const getWeapons = () => {
                 "fire_rate": 75,
                 "mobility": 63,
                 "control": 71,
-                "overall": 69.17,
-                "price": 8000
+                "overall": 69.17
             },
             {
+                "id": 80171384567105975179697781113922492136,
                 "name": "FR 5.56",
                 "description": "3 round burst bullpup battle rifle. A well placed burst can be extremely deadly at intermittent range.",
+                "price": 6500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/fr-556.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 73,
@@ -55,12 +60,13 @@ const getWeapons = () => {
                 "fire_rate": 72,
                 "mobility": 58,
                 "control": 72,
-                "overall": 68.67,
-                "price": 6500
+                "overall": 68.67
             },
             {
+                "id": 100551638574617886632642931372284942056,
                 "name": "Oden",
                 "description": "Fully automatic bullpup battle rifle maintains a slow cycle rate to help control hard hitting 12.7x55mm ammunition.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/oden.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 65,
@@ -69,12 +75,13 @@ const getWeapons = () => {
                 "fire_rate": 58,
                 "mobility": 56,
                 "control": 60,
-                "overall": 64.33,
-                "price": 8000
+                "overall": 64.33
             },
             {
+                "id": 102312684141466947481790181399257388776,
                 "name": "M13",
                 "description": "Automatic assault rifle featuring a short-stroke piston system that keeps the fire rate high and the recoil low.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/m13.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 72,
@@ -83,12 +90,13 @@ const getWeapons = () => {
                 "fire_rate": 77,
                 "mobility": 62,
                 "control": 74,
-                "overall": 70.0,
-                "price": 8000
+                "overall": 70.0
             },
             {
+                "id": 108663651678128383630170709359287310056,
                 "name": "FN Scar 17",
                 "description": "Large caliber, fully automatic assault rifle that provides high damage over long ranges.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/fn-scar-17.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 69,
@@ -97,12 +105,13 @@ const getWeapons = () => {
                 "fire_rate": 63,
                 "mobility": 57,
                 "control": 65,
-                "overall": 66.33,
-                "price": 8000
+                "overall": 66.33
             },
             {
+                "id": 113406689994815826188237270330764138216,
                 "name": "AK-47",
                 "description": "Very reliable automatic assault rifle chambered in 7.62mm Soviet. Large caliber ammunition requires skill to control recoil.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/ak-47.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 68,
@@ -111,12 +120,13 @@ const getWeapons = () => {
                 "fire_rate": 61,
                 "mobility": 59,
                 "control": 68,
-                "overall": 66.5,
-                "price": 8000
+                "overall": 66.5
             },
             {
+                "id": 117957558026480045167540562644382488296,
                 "name": "RAM-7",
                 "description": "Fully automatic bullpup assault rifle with a compact design that lends itself to close quarters engagements.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/ram-7.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 70,
@@ -125,12 +135,13 @@ const getWeapons = () => {
                 "fire_rate": 76,
                 "mobility": 66,
                 "control": 73,
-                "overall": 69.67,
-                "price": 8000
+                "overall": 69.67
             },
             {
+                "id": 123475615736261523187667681763320108776,
                 "name": "Grau 5.56",
                 "description": "This modular 5.56 weapon platform is lightweight and maneuverable, with exceptional range.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/grau-556.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 70,
@@ -139,12 +150,13 @@ const getWeapons = () => {
                 "fire_rate": 72,
                 "mobility": 65,
                 "control": 70,
-                "overall": 69.17,
-                "price": 8000
+                "overall": 69.17
             },
             {
+                "id": 127163713638875782952521934456404023016,
                 "name": "CR-56 AMAX",
                 "description": "This lightweight 7,62 x 39mm full-auto assault rifle is compact and powerful. Built exclusively for military use, the standard issue rifle is deadly at mid-range combat and easily configured for a variety of assault rifles.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/cr-56-amax.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 69,
@@ -153,12 +165,13 @@ const getWeapons = () => {
                 "fire_rate": 66,
                 "mobility": 62,
                 "control": 69,
-                "overall": 67.83,
-                "price": 8000
+                "overall": 67.83
             },
             {
+                "id": 128646151787680182973234735311140919016,
                 "name": "AN-94",
                 "description": "Cutting edge 5.45x39mm Russian rifle with a unique hyperburst feature. The initial shot from each trigger pull fires a rapid 2-round burst before perceived recoil is felt, creating a tightly grouped cluster with increased damage potential. This mechanism is fed by a canted magazine, and a reciprocating receiver helps keep control of the recoil.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/an-94.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 74,
@@ -167,12 +180,13 @@ const getWeapons = () => {
                 "fire_rate": 68,
                 "mobility": 62,
                 "control": 71,
-                "overall": 68.33,
-                "price": 8000
+                "overall": 68.33
             },
             {
+                "id": 129920642947459893957639265101188929256,
                 "name": "AS VAL",
                 "description": "This assault rifle, the 13th member of this weapon category, is a rare Soviet powerhouse chambered in subsonic 9x39mm ammunition and is pre-equipped with an integral suppressor. Combined with the weapon\u2019s high rate of fire, the AS-VAL is built for stealth, accuracy, and high penetration, all on a highly configurable platform.",
+                "price": 8000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/as-val.jpg",
                 "class": "Assault Rifles",
                 "accuracy": 69,
@@ -181,14 +195,15 @@ const getWeapons = () => {
                 "fire_rate": 77,
                 "mobility": 64,
                 "control": 69,
-                "overall": 69.0,
-                "price": 8000
+                "overall": 69.0
             }
         ],
         "SMGs": [
             {
+                "id": 134495252490303137388345838794964965096,
                 "name": "AUG",
                 "description": "A modular fully automatic weapon configured for mobility and close range combat.",
+                "price": 3600,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/aug.jpg",
                 "class": "SMGs",
                 "accuracy": 67,
@@ -197,12 +212,13 @@ const getWeapons = () => {
                 "fire_rate": 72,
                 "mobility": 65,
                 "control": 72,
-                "overall": 67.33,
-                "price": 3600
+                "overall": 67.33
             },
             {
+                "id": 136881536609013016969333052131287996136,
                 "name": "P90",
                 "description": "Automatic bullpup submachine gun. A Unique top mounted magazine hold carries ample high velocity 5.7x28mm ammunition.",
+                "price": 4350,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/p90.jpg",
                 "class": "SMGs",
                 "accuracy": 69,
@@ -211,12 +227,13 @@ const getWeapons = () => {
                 "fire_rate": 78,
                 "mobility": 70,
                 "control": 74,
-                "overall": 68.0,
-                "price": 4350
+                "overall": 68.0
             },
             {
+                "id": 138308682215480337051482694598524901096,
                 "name": "MP5",
                 "description": "Fully automatic 9mm submachine gun. A perfect balance of stability, mobility, and lethality.",
+                "price": 4550,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/mp5.jpg",
                 "class": "SMGs",
                 "accuracy": 66,
@@ -225,12 +242,13 @@ const getWeapons = () => {
                 "fire_rate": 75,
                 "mobility": 73,
                 "control": 77,
-                "overall": 69.17,
-                "price": 4550
+                "overall": 69.17
             },
             {
+                "id": 142886098812121460867670207554461341416,
                 "name": "Uzi",
                 "description": "Fully automatic open bolt submachine gun. Simple, steady, and effective.",
+                "price": 4100,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/uzi.jpg",
                 "class": "SMGs",
                 "accuracy": 61,
@@ -239,12 +257,13 @@ const getWeapons = () => {
                 "fire_rate": 64,
                 "mobility": 78,
                 "control": 78,
-                "overall": 66.67,
-                "price": 4100
+                "overall": 66.67
             },
             {
+                "id": 144377210067876297405419373665441519336,
                 "name": "PP19 Bizon",
                 "description": "Well balanced automatic submachine gun with a high capacity helical magazine.",
+                "price": 4200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/pp19-bizon.jpg",
                 "class": "SMGs",
                 "accuracy": 64,
@@ -253,12 +272,13 @@ const getWeapons = () => {
                 "fire_rate": 67,
                 "mobility": 68,
                 "control": 75,
-                "overall": 66.5,
-                "price": 4200
+                "overall": 66.5
             },
             {
+                "id": 148216788255809704870535602714370348776,
                 "name": "MP7",
                 "description": "Compact by deisgn, this fully automatic weapon has a high rate of fire and low recoil.",
+                "price": 4600,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/mp7.jpg",
                 "class": "SMGs",
                 "accuracy": 63,
@@ -267,12 +287,13 @@ const getWeapons = () => {
                 "fire_rate": 79,
                 "mobility": 75,
                 "control": 76,
-                "overall": 67.33,
-                "price": 4600
+                "overall": 67.33
             },
             {
+                "id": 151756384059733728131578020368702478056,
                 "name": "Striker 45",
                 "description": "A hard hitting submachine gun chambered in .45 Auto that will shred at longer distances than other weapons in its class.",
+                "price": 3000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/striker-45.jpg",
                 "class": "SMGs",
                 "accuracy": 68,
@@ -281,12 +302,13 @@ const getWeapons = () => {
                 "fire_rate": 64,
                 "mobility": 72,
                 "control": 72,
-                "overall": 68.67,
-                "price": 3000
+                "overall": 68.67
             },
             {
+                "id": 156097913063557882450161523050424538856,
                 "name": "Fennec",
                 "description": "An aggressive full auto sub machine gun with buttery smooth recoil and a blazing fast rate of fire that is exceptional for strategic room cleaning and holding down the front line.",
+                "price": 3800,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/fennec.jpg",
                 "class": "SMGs",
                 "accuracy": 71,
@@ -295,12 +317,13 @@ const getWeapons = () => {
                 "fire_rate": 82,
                 "mobility": 70,
                 "control": 73,
-                "overall": 68.5,
-                "price": 3800
+                "overall": 68.5
             },
             {
+                "id": 157458795404024772410921429099358426856,
                 "name": "ISO",
                 "description": "Precision crafted 9mm submachine gun with a fast rate of fire. This lightweight and reliable firearm is designed to control the close-range battlefield.",
+                "price": 3200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/iso.jpg",
                 "class": "SMGs",
                 "accuracy": 65,
@@ -309,12 +332,13 @@ const getWeapons = () => {
                 "fire_rate": 77,
                 "mobility": 74,
                 "control": 77,
-                "overall": 68.67,
-                "price": 3200
+                "overall": 68.67
             },
             {
+                "id": 161310246724392567529669426644684609256,
                 "name": "CX-9",
                 "description": "Excellent maneuverability and a fast fire rate make this blowback-operated SMG a formidable weapon in close-quarters engagements.",
+                "price": 3400,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/cx-9.jpg",
                 "class": "SMGs",
                 "accuracy": 65,
@@ -323,14 +347,15 @@ const getWeapons = () => {
                 "fire_rate": 81,
                 "mobility": 79,
                 "control": 74,
-                "overall": 69.5,
-                "price": 3400
+                "overall": 69.5
             }
         ],
         "Shotguns": [
             {
+                "id": 163590772338088656216976521903462127336,
                 "name": "Model 680",
                 "description": "Reliable, well rounded 12 gauge pump-action shotgun.",
+                "price": 2500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/model-680.jpg",
                 "class": "Shotguns",
                 "accuracy": 60,
@@ -339,12 +364,13 @@ const getWeapons = () => {
                 "fire_rate": 45,
                 "mobility": 69,
                 "control": 65,
-                "overall": 61.0,
-                "price": 2500
+                "overall": 61.0
             },
             {
+                "id": 191725556433875327977723748296834389736,
                 "name": "R9-0 Shotgun",
                 "description": "Double barrels provide two rapid shots before each re-chamber.",
+                "price": 2500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/r9-0-shotgun.jpg",
                 "class": "Shotguns",
                 "accuracy": 55,
@@ -353,12 +379,13 @@ const getWeapons = () => {
                 "fire_rate": 51,
                 "mobility": 71,
                 "control": 75,
-                "overall": 62.17,
-                "price": 2500
+                "overall": 62.17
             },
             {
+                "id": 194378511455665469322043567473835349736,
                 "name": "725",
                 "description": "Break action shotgun with 2 round capacity. A long back-bored barrel and cylindrical choke keeps spread tight and lethal over extended ranges.",
+                "price": 2700,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/725.jpg",
                 "class": "Shotguns",
                 "accuracy": 70,
@@ -367,12 +394,13 @@ const getWeapons = () => {
                 "fire_rate": 50,
                 "mobility": 62,
                 "control": 60,
-                "overall": 63.83,
-                "price": 2700
+                "overall": 63.83
             },
             {
+                "id": 199783326768202059039161482353678718696,
                 "name": "Origin 12",
                 "description": "Semi-automatic shotgun with large ammo capacity allows for continuous firing. Effective at close range.",
+                "price": 3300,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/origin-12-shotgun.jpg",
                 "class": "Shotguns",
                 "accuracy": 50,
@@ -381,12 +409,13 @@ const getWeapons = () => {
                 "fire_rate": 49,
                 "mobility": 76,
                 "control": 70,
-                "overall": 59.83,
-                "price": 3300
+                "overall": 59.83
             },
             {
+                "id": 202655843627641480571680786138487822056,
                 "name": "VLK Rogue",
                 "description": "An agile 12-gauge mag fed shotgun from VLK with extensive option to modify range, stability, and maneuverability.",
+                "price": 3200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/vlk-rogue.jpg",
                 "class": "Shotguns",
                 "accuracy": 57,
@@ -395,12 +424,13 @@ const getWeapons = () => {
                 "fire_rate": 51,
                 "mobility": 78,
                 "control": 68,
-                "overall": 62.33,
-                "price": 3200
+                "overall": 62.33
             },
             {
+                "id": 204444513677914389967416777134623921896,
                 "name": "JAK-12",
                 "description": "Fully automatic open bolt shotgun with a recoil-reducing gas blowback system. This combat shotgun unloads high volumes of lead down range at a steady rate.",
+                "price": 5600,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/jak-12.jpg",
                 "class": "Shotguns",
                 "accuracy": 56,
@@ -409,14 +439,15 @@ const getWeapons = () => {
                 "fire_rate": 53,
                 "mobility": 70,
                 "control": 73,
-                "overall": 61.17,
-                "price": 5600
+                "overall": 61.17
             }
         ],
         "LMGs": [
             {
+                "id": 208874344053423942175535036419874461416,
                 "name": "PKM",
                 "description": "Fully automatic light machine gun firing 7.62mm ammunition for high damage at a moderate fire rate.",
+                "price": 9000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/pkm.jpg",
                 "class": "LMGs",
                 "accuracy": 75,
@@ -425,12 +456,13 @@ const getWeapons = () => {
                 "fire_rate": 68,
                 "mobility": 50,
                 "control": 65,
-                "overall": 68.5,
-                "price": 9000
+                "overall": 68.5
             },
             {
+                "id": 213836234323424537113336243845364422376,
                 "name": "SA87",
                 "description": "Fully automatic bullpup light machine gun. Lower rate of fire and 5.56mm ammunition keeps this rifle stable and effective at long ranges.",
+                "price": 8400,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/sa87.jpg",
                 "class": "LMGs",
                 "accuracy": 73,
@@ -439,12 +471,13 @@ const getWeapons = () => {
                 "fire_rate": 64,
                 "mobility": 53,
                 "control": 70,
-                "overall": 68.5,
-                "price": 8400
+                "overall": 68.5
             },
             {
+                "id": 218373173251837123279447215197074200296,
                 "name": "M91",
                 "description": "Robust light machine gun sacrifices mobility for stability. High caliber sustained fire will neutralize targets at long ranges.",
+                "price": 9300,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/m91.jpg",
                 "class": "LMGs",
                 "accuracy": 74,
@@ -453,12 +486,13 @@ const getWeapons = () => {
                 "fire_rate": 66,
                 "mobility": 51,
                 "control": 65,
-                "overall": 68.17,
-                "price": 9300
+                "overall": 68.17
             },
             {
+                "id": 219766059016270025176734657389306812136,
                 "name": "MG34",
                 "description": "Fully automatic weapon with a high rate of fire and punishing 7.92 Mauser ammunition. Salvaged WW2 machine guns are still reliable and deadly on the battlefield.",
+                "price": 4300,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/mg34.jpg",
                 "class": "LMGs",
                 "accuracy": 72,
@@ -467,12 +501,13 @@ const getWeapons = () => {
                 "fire_rate": 70,
                 "mobility": 48,
                 "control": 72,
-                "overall": 69.5,
-                "price": 4300
+                "overall": 69.5
             },
             {
+                "id": 221125997749321370249233824329792198376,
                 "name": "Holger-26",
                 "description": "Versatile fully automatic 5.56mm light machine gun. Modular design can be configured for a broad range of engagements.",
+                "price": 10200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/holger-26.jpg",
                 "class": "LMGs",
                 "accuracy": 73,
@@ -481,12 +516,13 @@ const getWeapons = () => {
                 "fire_rate": 70,
                 "mobility": 52,
                 "control": 72,
-                "overall": 69.33,
-                "price": 10200
+                "overall": 69.33
             },
             {
+                "id": 223798728912756697114860368012236527336,
                 "name": "Bruen MK9",
                 "description": "Add some more firepower to your arsenal with the MK9 Bruen LMG. This high accuracy and reliable damage weapon can be acquired via the \u2018Encryption\u2019 bundle or by completing a challenge found in the Weapons menu. Head to the LMG tab to find LMG Foxtrot and complete the associated challenge to earn the weapon or get the Legendary \u2018The Glitch\u2019 blueprint in the \u2018Encryption\u2019 bundle in the Store.",
+                "price": 7800,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/MK9-Bruen.jpg",
                 "class": "LMGs",
                 "accuracy": 78,
@@ -495,12 +531,13 @@ const getWeapons = () => {
                 "fire_rate": 73,
                 "mobility": 52,
                 "control": 69,
-                "overall": 69.83,
-                "price": 7800
+                "overall": 69.83
             },
             {
+                "id": 227031324302035822636804938148851193576,
                 "name": "FiNN LMG",
                 "description": "An ultra-light open bolt 5.56 machine gun with a low cyclic rate and advanced recoil controls, giving the FiNN exceptional full-auto accuracy.",
+                "price": 6500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/finn-lmg.jpg",
                 "class": "LMGs",
                 "accuracy": 79,
@@ -509,12 +546,13 @@ const getWeapons = () => {
                 "fire_rate": 66,
                 "mobility": 54,
                 "control": 73,
-                "overall": 69.67,
-                "price": 6500
+                "overall": 69.67
             },
             {
+                "id": 231810992175098485026071122294886864616,
                 "name": "RAAL MG",
                 "description": "The Reconnaissance Auxiliary Assault Lightweight Machine Gun uses a low fire rate and a reciprocating barrel to mitigate the powerful .338 Normal Mag recoil. Advanced titanium construction keeps the weight manageable.",
+                "price": 13400,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/raal-mg.jpg",
                 "class": "LMGs",
                 "accuracy": 71,
@@ -523,14 +561,15 @@ const getWeapons = () => {
                 "fire_rate": 63,
                 "mobility": 47,
                 "control": 64,
-                "overall": 68.0,
-                "price": 13400
+                "overall": 68.0
             }
         ],
         "Marksman Rifles": [
             {
+                "id": 254633717329612142042938075388271630056,
                 "name": "EBR-14",
                 "description": "Semi-automatic long range battle rifle balances rate of fire with lethality.",
+                "price": 4800,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/ebr-14.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 77,
@@ -539,12 +578,13 @@ const getWeapons = () => {
                 "fire_rate": 57,
                 "mobility": 58,
                 "control": 72,
-                "overall": 68.83,
-                "price": 4800
+                "overall": 68.83
             },
             {
+                "id": 256052269057291539872388946143215589096,
                 "name": "MK2 Carbine",
                 "description": "Highly accurate lever action rifle. Will neutralize an enemy with one well placed round to the head or chest.",
+                "price": 5400,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/mk2-carbine.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 78,
@@ -553,12 +593,13 @@ const getWeapons = () => {
                 "fire_rate": 45,
                 "mobility": 66,
                 "control": 60,
-                "overall": 66.17,
-                "price": 5400
+                "overall": 66.17
             },
             {
+                "id": 260382560338544670937328180551021991656,
                 "name": "Kar98k",
                 "description": "Bolt action rifle chambered in 7.62 Mauser. A WW2 relic that is still extremely lethal in the hands of a rebel marksman.",
+                "price": 6000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/kar98k.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 76,
@@ -567,12 +608,13 @@ const getWeapons = () => {
                 "fire_rate": 41,
                 "mobility": 53,
                 "control": 68,
-                "overall": 65.83,
-                "price": 6000
+                "overall": 65.83
             },
             {
+                "id": 261781263034669370122281740740088272616,
                 "name": "Crossbow",
                 "description": "Silent and agile, this high-performance crossbow fires 20.0\" bolts with exceptional lethality.",
+                "price": 6000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/crossbow.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 70,
@@ -581,12 +623,13 @@ const getWeapons = () => {
                 "fire_rate": 26,
                 "mobility": 70,
                 "control": 64,
-                "overall": 62.5,
-                "price": 6000
+                "overall": 62.5
             },
             {
+                "id": 263073862583273341363686650935425079016,
                 "name": "SKS",
                 "description": "Lightweight semi auto Carbine chambered in 7.62x39mm. This hard hitting and agile Soviet rifle focuses on utility over accuracy. It flaunts a faster fire rate than other weapons in its class, but a carefully placed round will eliminate the need for follow up shots entirely. This classic DMR has seen a lot of battles, and its unique gunsmith configurations reflect a diverse service history.",
+                "price": 5800,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/sks.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 75,
@@ -595,12 +638,13 @@ const getWeapons = () => {
                 "fire_rate": 52,
                 "mobility": 59,
                 "control": 73,
-                "overall": 67.67,
-                "price": 5800
+                "overall": 67.67
             },
             {
+                "id": 264982732055741516613915935264934434536,
                 "name": "SP-R 208",
                 "description": "This bolt-action marksman rifle comes as one of the most accurate weapons in its class and with a breadth of customization options. From alternate ammo choices to bolt assembly changes and more, no matter how this weapon is configured, it\u2019s a powerful yet mobile tool for a marksman on the go.",
+                "price": 7700,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/sp-r-208.jpg",
                 "class": "Marksman Rifles",
                 "accuracy": 76,
@@ -609,14 +653,15 @@ const getWeapons = () => {
                 "fire_rate": 39,
                 "mobility": 51,
                 "control": 65,
-                "overall": 65.5,
-                "price": 7700
+                "overall": 65.5
             }
         ],
         "Sniper Rifles": [
             {
+                "id": 267920482215068682831436259396692186856,
                 "name": "Dragunov",
                 "description": "A soviet workhorse chambered in 7.62mm x 54mmR. This gas-operated semi-automatic sniper rifle allows for rapid followup shots.",
+                "price": 5000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/dragunov.jpg",
                 "class": "Sniper Rifles",
                 "accuracy": 81,
@@ -625,12 +670,13 @@ const getWeapons = () => {
                 "fire_rate": 47,
                 "mobility": 47,
                 "control": 65,
-                "overall": 65.5,
-                "price": 5000
+                "overall": 65.5
             },
             {
+                "id": 271290652554864077519751762990428296936,
                 "name": "HDR",
                 "description": "Anti-material bolt action sniper rifle chambered in 12.7x108mm ammunition. 745 gr bullets have a lower muzzle velocity, but remains devastating even at very long ranges.",
+                "price": 6000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/hdr.jpg",
                 "class": "Sniper Rifles",
                 "accuracy": 83,
@@ -639,12 +685,13 @@ const getWeapons = () => {
                 "fire_rate": 36,
                 "mobility": 43,
                 "control": 65,
-                "overall": 66.0,
-                "price": 6000
+                "overall": 66.0
             },
             {
+                "id": 272857048787484843459012442369336252136,
                 "name": "AX-50",
                 "description": "Hard hitting, bolt action sniper rifle with .50 cal BMG ammunition. Its tungsten sabot tipped bullets are fast and powerful, but require precise shots over long distances.",
+                "price": 6000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/ax-50.jpg",
                 "class": "Sniper Rifles",
                 "accuracy": 82,
@@ -653,12 +700,13 @@ const getWeapons = () => {
                 "fire_rate": 38,
                 "mobility": 44,
                 "control": 70,
-                "overall": 66.33,
-                "price": 6000
+                "overall": 66.33
             },
             {
+                "id": 283582613578440637575201266385079473896,
                 "name": "Rytec AMR",
                 "description": "This semi-automatic Anti-Material Rifle is chambered in .50 BMG for dominant long-range assaults. A 25x59mm high-explosive payload variant is officially listed ad \"experimental\", but had been deployed on multiple classified mission with great effectiveness.",
+                "price": 6500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/Rytec-AMR.jpg",
                 "class": "Sniper Rifles",
                 "accuracy": 80,
@@ -667,14 +715,15 @@ const getWeapons = () => {
                 "fire_rate": 50,
                 "mobility": 40,
                 "control": 65,
-                "overall": 66.17,
-                "price": 6500
+                "overall": 66.17
             }
         ],
         "Handguns": [
             {
+                "id": 285298058584072988442203176255996532456,
                 "name": "X16",
                 "description": "Semi-automatic pistol chambered in .45 ACP ammunition. A reliable fall back when you find yourself in close quarters.",
+                "price": 1000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/x16.jpg",
                 "class": "Handguns",
                 "accuracy": 55,
@@ -683,12 +732,13 @@ const getWeapons = () => {
                 "fire_rate": 58,
                 "mobility": 81,
                 "control": 70,
-                "overall": 60.5,
-                "price": 1000
+                "overall": 60.5
             },
             {
+                "id": 313292266566547350703471425747408623336,
                 "name": "1911",
                 "description": "A well rounded semi-automatic side arm with a moderate rate of fire. Slightly more range than your average .45 ACP pistol.",
+                "price": 1000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/1911.jpg",
                 "class": "Handguns",
                 "accuracy": 55,
@@ -697,12 +747,13 @@ const getWeapons = () => {
                 "fire_rate": 55,
                 "mobility": 80,
                 "control": 69,
-                "overall": 60.33,
-                "price": 1000
+                "overall": 60.33
             },
             {
+                "id": 314775930375025846393486798727057217256,
                 "name": ".357",
                 "description": "Double action revolver firing .357 Magnum ammunition for powerful damage over extended ranges.",
+                "price": 1500,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/357.jpg",
                 "class": "Handguns",
                 "accuracy": 60,
@@ -711,12 +762,13 @@ const getWeapons = () => {
                 "fire_rate": 44,
                 "mobility": 76,
                 "control": 65,
-                "overall": 60.67,
-                "price": 1500
+                "overall": 60.67
             },
             {
+                "id": 317916544244470786447415392143650297576,
                 "name": "M19",
                 "description": "Semi-automatic 9mm pistol, excellent stability with a rapid cycle rate.",
+                "price": 850,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/m19.jpg",
                 "class": "Handguns",
                 "accuracy": 57,
@@ -725,12 +777,13 @@ const getWeapons = () => {
                 "fire_rate": 60,
                 "mobility": 82,
                 "control": 72,
-                "overall": 61.0,
-                "price": 850
+                "overall": 61.0
             },
             {
+                "id": 319241624170579105496660151616866850536,
                 "name": ".50 GS",
                 "description": "The most powerful semi-automatic handgun available, deals heavy damage up to intermediate ranges.",
+                "price": 2200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/50-gs.jpg",
                 "class": "Handguns",
                 "accuracy": 54,
@@ -739,12 +792,13 @@ const getWeapons = () => {
                 "fire_rate": 53,
                 "mobility": 77,
                 "control": 60,
-                "overall": 60.17,
-                "price": 2200
+                "overall": 60.17
             },
             {
+                "id": 320407819939581318843294818052079589096,
                 "name": "Renetti",
                 "description": "Well rounded semi-auto 9mm pistol. This unassuming sidearm excels in close range combat, and features gunsmithing capabilities unique to the pistol class that permit a variety of engagement strategies.",
+                "price": 1800,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/Renetti.jpg",
                 "class": "Handguns",
                 "accuracy": 60,
@@ -753,12 +807,13 @@ const getWeapons = () => {
                 "fire_rate": 62,
                 "mobility": 80,
                 "control": 70,
-                "overall": 61.33,
-                "price": 1800
+                "overall": 61.33
             },
             {
+                "id": 323146598868415037031312843713282021096,
                 "name": "Sykov",
                 "description": "A dependable fallback in close quarters, this double-action/single-action sidearm comes with a few custom gunsmith mods that make it an outstanding addition to any arsenal.",
+                "price": 1200,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/sykov.jpg",
                 "class": "Handguns",
                 "accuracy": 53,
@@ -767,14 +822,15 @@ const getWeapons = () => {
                 "fire_rate": 57,
                 "mobility": 80,
                 "control": 71,
-                "overall": 60.17,
-                "price": 1200
+                "overall": 60.17
             }
         ],
         "Launchers": [
             {
+                "id": 324727743423487833277016561298545022696,
                 "name": "PILA",
                 "description": "Portable infrared surface-to-air missile with a free-fire option. Self propelled missiles has a higher speed, and moderate explosive yield.",
+                "price": 2100,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/pila.jpg",
                 "class": "Launchers",
                 "accuracy": 68,
@@ -783,12 +839,13 @@ const getWeapons = () => {
                 "fire_rate": 25,
                 "mobility": 47,
                 "control": 30,
-                "overall": 57.0,
-                "price": 2100
+                "overall": 57.0
             },
             {
+                "id": 326367374208128659456731833027946059496,
                 "name": "Strela-P",
                 "description": "84mm recoilless rifle lobs an explosive projectile at a very high velocity. The unguided armor piercing round has a low explosive yield, but is devastating against vehicles on contact.",
+                "price": 1900,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/strela-p.jpg",
                 "class": "Launchers",
                 "accuracy": 70,
@@ -797,12 +854,13 @@ const getWeapons = () => {
                 "fire_rate": 30,
                 "mobility": 47,
                 "control": 35,
-                "overall": 59.5,
-                "price": 1900
+                "overall": 59.5
             },
             {
+                "id": 331391288245153546231218146334956558056,
                 "name": "JOKR",
                 "description": "Fire and forget lock-on portable missile launcher with a large explosive yield. Infrared guided missiles take a top-attack trajectorym, ensuring destruction of heavily armored vehicles.",
+                "price": 3400,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/jokr.jpg",
                 "class": "Launchers",
                 "accuracy": 90,
@@ -811,12 +869,13 @@ const getWeapons = () => {
                 "fire_rate": 25,
                 "mobility": 42,
                 "control": 40,
-                "overall": 62.0,
-                "price": 3400
+                "overall": 62.0
             },
             {
+                "id": 336812602030252106353996540807017895656,
                 "name": "RPG-7",
                 "description": "Unguided, self-propelled rocket launcher fires a slower projectile with a high-explosive yield.",
+                "price": 2000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/rpg-7.jpg",
                 "class": "Launchers",
                 "accuracy": 56,
@@ -825,12 +884,13 @@ const getWeapons = () => {
                 "fire_rate": 30,
                 "mobility": 49,
                 "control": 40,
-                "overall": 57.67,
-                "price": 2000
+                "overall": 57.67
             },
             {
+                "id": 3694818830720772441584704982760789736,
                 "name": "MGL-32 Grenade Launcher",
                 "description": "The MGL-32 Grenade Launcher is exclusive to Modern Warfare's campaign and Special Ops. It also appears in Call of Duty Warzone Battle Royale as legendary loot.",
+                "price": 3000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/MGL-32-Grenade-Launcher.jpg",
                 "class": "Launchers",
                 "accuracy": 55,
@@ -839,14 +899,15 @@ const getWeapons = () => {
                 "fire_rate": 28,
                 "mobility": 52,
                 "control": 30,
-                "overall": 55.33,
-                "price": 3000
+                "overall": 55.33
             }
         ],
         "Melee": [
             {
+                "id": 10220042372579331859355225378038716136,
                 "name": "Combat Knife",
                 "description": "CQC tactical knife. Standard military issue, employed for fast, quiet, and deadly wetwork.",
+                "price": 250,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/combat-knife.jpg",
                 "class": "Melee",
                 "accuracy": 0,
@@ -855,12 +916,13 @@ const getWeapons = () => {
                 "fire_rate": 0,
                 "mobility": 80,
                 "control": 0,
-                "overall": 29.17,
-                "price": 250
+                "overall": 29.17
             },
             {
+                "id": 12536970950105849581856426275677116136,
                 "name": "Kali Sticks",
                 "description": "Dual wielding batons allow operators to approach their targets with great agility. Sturdy, lightweight design enables rapid attacks for zoning your enemies.",
+                "price": 650,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/kali-sticks.jpg",
                 "class": "Melee",
                 "accuracy": 0,
@@ -869,12 +931,13 @@ const getWeapons = () => {
                 "fire_rate": 0,
                 "mobility": 82,
                 "control": 35,
-                "overall": 34.83,
-                "price": 650
+                "overall": 34.83
             },
             {
+                "id": 25689468660831091740078207286902757096,
                 "name": "Dual Kodachis",
                 "description": "Hand forged carbon steel blades provide the sharpest edge possible for silently slicing through your enemies.",
+                "price": 450,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/dual-kodachis.jpg",
                 "class": "Melee",
                 "accuracy": 0,
@@ -883,12 +946,13 @@ const getWeapons = () => {
                 "fire_rate": 0,
                 "mobility": 75,
                 "control": 31,
-                "overall": 34.83,
-                "price": 450
+                "overall": 34.83
             },
             {
+                "id": 27008315707394413613884482657546376936,
                 "name": "Riot Shield",
                 "description": "Ballistic-proof and explosive-resistant shield with increased melee damage.",
+                "price": 2000,
                 "image": "https://www.gamesatlas.com/images/cod-modern-warfare/weapons/riot-shield.jpg",
                 "class": "Melee",
                 "accuracy": 0,
@@ -897,14 +961,11 @@ const getWeapons = () => {
                 "fire_rate": 0,
                 "mobility": 80,
                 "control": 0,
-                "overall": 29.17,
-                "price": 2000
+                "overall": 29.17
             }
         ]
     }
-
     
-
     return weapons
 }
 

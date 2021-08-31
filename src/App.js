@@ -22,9 +22,15 @@ const App = () => {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path="/" exact render={() => <Home />} />
-          <Route path="/shop" exact render={() => <Products productType={productType} handleProductTypeClick={handleProductTypeClick} />} />
-          <Route path="/shop/:id" exact remder={() => <ProductDetail productType={productType}/>} />
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/shop" exact>
+            <Products productType={productType} handleProductTypeClick={handleProductTypeClick} />}
+          </Route>
+          <Route path="/shop/:id">
+            <ProductDetail productType={productType} />
+          </Route>
         </Switch>
       </div>
     </Router>

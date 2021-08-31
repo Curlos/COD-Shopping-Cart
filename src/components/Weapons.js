@@ -1,6 +1,6 @@
 import Weapon from './Weapon'
 import getWeapons from '../utils/getWeapons'
-import { nanoid } from 'nanoid'
+import { Link } from 'react-router-dom'
 
 const Weapons = ({ productType }) => {
 
@@ -14,10 +14,12 @@ const Weapons = ({ productType }) => {
     <div className="productsContainer">
         {Object.keys(weapons[productType]).map((index) => {
           const weapon = weapons[productType][index]
+          const shortened_id = String(weapon.id).substring(2, 12)
           return (
-            <a href={`/shop/${weapon.id}`}>
-              <Weapon key={weapon.id} weapon={weapon} />
-            </a>
+            <Link to={`/shop/${shortened_id}`}>
+              <Weapon key={shortened_id} weapon={weapon} />
+            </Link>
+            
           )
         })}
     </div>

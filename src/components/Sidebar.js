@@ -1,17 +1,18 @@
 import './Sidebar.css';
+import { Link } from 'react-router-dom'
 
 const Sidebar = ({ handleProductTypeClick }) => {
   return (
     <div className="sidenav">
-      <a href="#killstreaks" value="Killstreaks" onClick={handleProductTypeClick}>Killstreaks</a>
-      <a href="#assault-rifles" value="Assault Rifles" onClick={handleProductTypeClick}>Assault Rifles</a>
-      <a href="#smgs" value="SMGs" onClick={handleProductTypeClick}>Sub Machine Guns (SMGs)</a>
-      <a href="#lmgs" value="LMGs" onClick={handleProductTypeClick}>Light Machine Guns (LMGs)</a>
-      <a href="#marksman-rifles" value="Marksman Rifles" onClick={handleProductTypeClick}>Marksman Rifles</a>
-      <a href="#sniper-rifles" value="Sniper Rifles" onClick={handleProductTypeClick}>Sniper Rifles</a>
-      <a href="#handguns" value="Handguns" onClick={handleProductTypeClick}>Handguns</a>
-      <a href="#rocket-launchers" value="Launchers" onClick={handleProductTypeClick}>Rocket Launchers</a>
-      <a href="#melee" value="Melee" onClick={handleProductTypeClick}>Melee</a>
+      <Link to="/shop" value="Killstreaks" onClick={handleProductTypeClick}>Killstreaks</Link>
+      <Link to="/shop" value="Assault Rifles" onClick={handleProductTypeClick}>Assault Rifles</Link>
+      <Link to="/shop" value="SMGs" onClick={handleProductTypeClick}>Sub Machine Guns (SMGs)</Link>
+      <Link to="/shop" value="LMGs" onClick={handleProductTypeClick}>Light Machine Guns (LMGs)</Link>
+      <Link to="/shop" value="Marksman Rifles" onClick={handleProductTypeClick}>Marksman Rifles</Link>
+      <Link to="/shop" value="Sniper Rifles" onClick={handleProductTypeClick}>Sniper Rifles</Link>
+      <Link to="/shop" value="Handguns" onClick={handleProductTypeClick}>Handguns</Link>
+      <Link to="/shop" value="Launchers" onClick={handleProductTypeClick}>Rocket Launchers</Link>
+      <Link to="/shop" value="Melee" onClick={handleProductTypeClick}>Melee</Link>
     </div>
   )
 }
