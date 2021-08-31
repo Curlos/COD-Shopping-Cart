@@ -903,6 +903,8 @@ const getWeapons = () => {
         ]
     }
 
+    
+
     return weapons
 }
 

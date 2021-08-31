@@ -13,10 +13,11 @@ const Weapons = ({ productType }) => {
   return (
     <div className="productsContainer">
         {Object.keys(weapons[productType]).map((index) => {
-          const uniqueID = nanoid()
-
+          const weapon = weapons[productType][index]
           return (
-            <Weapon key={uniqueID} id={uniqueID} weapon={weapons[productType][index]}/>
+            <a href={`/shop/${weapon.id}`}>
+              <Weapon key={weapon.id} weapon={weapon} />
+            </a>
           )
         })}
     </div>

@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react'
+
 import getKillstreaks from '../utils/getKillstreaks'
 import Killstreak from './Killstreak'
 import { nanoid } from 'nanoid'
@@ -9,8 +11,6 @@ const Killstreaks = ({ productType }) => {
 
   const killstreaks = getKillstreaks()
 
-  console.log(Object.keys(killstreaks))
-
   return (
     <div className="productsContainer">
       {Object.keys(killstreaks).map((name, i) => {
@@ -21,7 +21,9 @@ const Killstreaks = ({ productType }) => {
         const uniqueID = nanoid()
         
         return (
-          <Killstreak name={name} key={uniqueID} id={uniqueID} image={image} description={description} price={price}/>
+          <a href={`/shop/${uniqueID}`}>
+            <Killstreak name={name} key={uniqueID} id={uniqueID} image={image} description={description} price={price}/>
+          </a>
         )
       })}
     </div>
